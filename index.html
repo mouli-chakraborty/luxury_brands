@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <!--fontawsome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--css-link-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!--navbar starts-->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="./index.html" class="logo">
+                    <img src="./image/logo-image.png" alt="logo-image">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="./index.html">products</a></li>
+                    <li><a href="#">service provided</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">markets served</a></li>
+                    <li><a href="#">contacts</a></li>
+                </ul>
+                <div class="nav-right">
+                    <figure>
+                        <img src="./image/nav-right-image.png" alt="nav-right-image">
+                    </figure>
+                </div>
+                <i class="fa-solid fa-bars hamburger"></i>
+            </nav>
+        </div>
+    </header>
+    <!--navbar ends-->
+    <!--hamburger-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".hamburger").click(function () {
+                $(".nav-links").toggle();
+                $(selector).show("slide", { direction: "left" }, 1000);
+
+
+            });
+        });
+    </script>
+    <!--hamburger-->
+    <main>
+        <!--banner starts-->
+        <section class="banner">
+            <div class="container">
+                <div class="banner-child">
+                    <h1>built on excellence since 1983</h1>
+                    <a href="#"><i class="fa-solid fa-shield"></i></a>
+                    <a href="#" class="cmn-btn">view products <i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--banner ends-->
+        <!--between section starts-->
+        <section class="between com-gap">
+            <div class="container">
+                <div class="between-child">
+                    <div class="left-btwn">
+                        <div class="inner-between">
+                            <a href="#" class="cmn-btn btwn-btn"><i class="fa-solid fa-minus"></i> who we are</a>
+                        </div>
+                    </div>
+                    <div class="right-btwn">
+                        <div class="inner-between">
+                            <h2>Trusted Name in Sustainable Timber & Woodcraft</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--between section ends-->
+        <!--slider-->
+        <section class="slider">
+            <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./image/slider-1-image.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./image/slider-2-image.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./image/slider-3-image.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./image/slider-4-image.png" />
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-scrollbar"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!--slider-->
+        <!--about starts-->
+        <section class="about com-gap">
+            <div class="container">
+                <div class="about-child">
+                    <div class="left">
+                        <div class="inner-about">
+                            <h2 class="heading-3">With decades of experience in sustainable forestry and fine
+                                woodworking, we deliver quality timber that defines strength and beauty.</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur. Rhoncus praesent cursus posuere nunc viverra
+                                amet. Porta nibh venenatis suspendisse convallis quam maecenas suspendisse. Vel sapien
+                                accumsan egestas lobortis pharetra. Scelerisque ultrices sed urna morbi sapien laoreet
+                                faucibus. Scelerisque nunc nunc facilisi quis lacus amet.
+                            </p>
+                            <a href="#" class="cmn-btn abt-btn">explore our projects <i
+                                    class="fa-solid fa-square-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <figure>
+                            <img src="./image/about-1-image.png" alt="about-1-image">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--about ends-->
+        <!--between section starts-->
+        <section class="between com-gap">
+            <div class="container">
+                <div class="between-child">
+                    <div class="left-btwn">
+                        <div class="inner-between">
+                            <a href="#" class="cmn-btn btwn-btn"><i class="fa-solid fa-minus"></i> our sector</a>
+                        </div>
+                    </div>
+                    <div class="right-btwn">
+                        <div class="inner-between">
+                            <h2>Delivering quality timber across diverse industries</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--between section ends-->
+        <!--card starts-->
+        <section class="card com-gap">
+            <div class="container">
+                <div class="card-child">
+                    <div class="cmn-card">
+                        <div class="crd-1-image">
+                            <figure>
+                            <img src="./image/card-1-image.png" alt="card-1-image" class="crd-image">
+                        </figure>
+                        </div>
+                        <div class="card-text">
+                            <h3>Architecture & Construction</h3>
+                            <p>
+                                Supplying durable structural timber for modern and traditional builds.
+                            </p>
+                            <a href="#" class="cmn-btn abt-btn">learn more <i
+                                    class="fa-solid fa-square-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="cmn-card">
+                        <div class="crd-1-image">
+                            <figure>
+                            <img src="./image/card-1-image.png" alt="card-2-image" class="crd-image">
+                        </figure>
+                        </div>
+                        <div class="card-text">
+                            <h3>Furniture & Interior Design</h3>
+                            <p>
+                                Premium hardwoods for furniture makers and interior craftsmen.
+                            </p>
+                            <a href="#" class="cmn-btn abt-btn">learn more <i
+                                    class="fa-solid fa-square-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="cmn-card">
+                        <div class="crd-1-image">
+                            <figure>
+                            <img src="./image/card-1-image.png" alt="card-3-image" class="crd-image">
+                        </figure>
+                        </div>
+                        <div class="card-text">
+                            <h3>Landscape & Outdoor Projects</h3>
+                            <p>
+                                Weather-resistant timber for decking, pergolas, and garden structures.
+                            </p>
+                            <a href="#" class="cmn-btn abt-btn">learn more <i
+                                    class="fa-solid fa-square-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--card ends-->
+        <!--between section starts-->
+        <section class="between3 com-gap">
+            <div class="container">
+                <div class="betwee3-child">
+                    <div class="cmn-between">
+                        <a href="#" class="cmn-btn btwn-btn"><i class="fa-solid fa-minus"></i> from our blog</a>
+
+                    </div>
+                    <div class="cmn-between">
+                        <h2>our experienced craftsmen</h2>
+                    </div>
+                    <div class="cmn-between">
+                        <a href="#" class="cmn-btn between-btn">we are here to help you grow.join our team.</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--between section ends-->
+        <!--card2 starts-->
+        <section class="card com-gap">
+            <div class="container">
+                <div class="card-child card-child2">
+                    <div class="cmn-card">
+                        <div class="crd-image">
+                            <figure>
+                            <img src="./image/card2-1-image.png" alt="card2-1-image" class="crd2-image">
+                        </figure>
+                        </div>
+                        <div class="card-text">
+                            <p>ceo - founder</p>
+                            <h3>robert fox</h3>
+                        </div>
+                    </div>
+                    <div class="cmn-card">
+                        <div class="crd-image">
+                            <figure>
+                            <img src="./image/card2-2-image.png" alt="card2-2-image" class="crd2-image">
+                        </figure>
+                        </div>
+                        <div class="card-text">
+                            <p>ceo - founder</p>
+                            <h3>robert fox</h3>
+                        </div>
+                    </div>
+                    <div class="cmn-card">
+                        <div class="crd-image">
+                            <figure>
+                            <img src="./image/card2-3-image.png" alt="card2-3-image" class="crd2-image">
+                        </figure>
+                        </div>
+                        <div class="card-text">
+                            <p>ceo - founder</p>
+                            <h3>robert fox</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--card2 ends-->
+        <!--between section starts-->
+        <section class="between">
+            <div class="container">
+                <div class="between-child">
+                    <div class="left-btwn">
+                        <div class="inner-between">
+                            <a href="#" class="cmn-btn btwn-btn"><i class="fa-solid fa-minus"></i> from our blog</a>
+                        </div>
+                    </div>
+                    <div class="right-btwn">
+                        <div class="inner-between">
+                            <h2>news & events</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--between section ends-->
+        <!--card3 starts-->
+        <section class="card com-gap">
+            <div class="container">
+                <div class="card-child">
+                    <div class="cmn-card">
+                        <div class="crd-image">
+                            <figure>
+                            <img src="./image/card3-1-image.png" alt="card3-1-image" class="crd3-image">
+                        </figure>
+                        </div>
+                        <div class="card-text">
+                            <h3>The Journey of Timber — From Forest to Finish</h3>
+                            <p>
+                                Discover how responsibly sourced timber travels from forest to your living spaces —
+                                ensuring sustainability and superior quality at every step.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <div class="cmn-card">
+                        <div class="crd-image">
+                            <figure>
+                            <img src="./image/card3-2-image.png" alt="card3-2-image" class="crd3-image">
+                        </figure>
+                        </div>
+                        <div class="card-text">
+                            <h3>Why Wood Will Always Be in Style</h3>
+                            <p>
+                                From minimalist interiors to luxury finishes, learn why timber remains the timeless
+                                choice for architects and designers worldwide.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <div class="cmn-card">
+                        <div class="crd-image">
+                            <figure>
+                            <img src="./image/card3-3-image.png" alt="card3-3-image" class="crd3-image">
+                        </figure>
+                        </div>
+                        <div class="card-text">
+                            <h3>Inside the Art of our Wood Finishing</h3>
+                            <p>
+                                Finishing is more than polish — it’s protection, texture, and life. Here’s how expert
+                                finishing transforms raw wood into art.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--card3 ends-->
+        <!--form starts-->
+        <section class="form com-gap">
+            <div class="container">
+                <div class="form-child">
+                    <div class="form-left">
+                        <a href="#" class="cmn-btn form-btn"><i class="fa-solid fa-minus"></i> from our blog</a>
+                    </div>
+                    <div class="form-right">
+                        <div class="inner-form">
+                            <h2 class="form-head">subscribe our newsletter</h2>
+                            <form action="#" class="form-email">
+                                <input type="email" id="email" placeholder="enter your email">
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--form ends-->
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-child1">
+                <div class="cmn-footer1">
+                    <a href="tel:(084) 123 - 456 88"><i class="fa-solid fa-phone-volume"></i>(084) 123 - 456 88</a>
+                </div>
+                <div class="cmn-footer1">
+                    <a href="mailto:support@example.com"><i class="fa-regular fa-envelope"></i> support@example.com</a>
+                </div>
+                <div class="cmn-footer1">
+                    <a href="#"><i class="fa-solid fa-earth-americas"></i>2972 Westheimer Rd., Illinois 85486</a>
+                </div>
+            </div>
+            <div class="footer-child2">
+                <div class="cmn-footer">
+                    <a href="./index.html" class="logo">
+                        <img src="./image/logo-image.png" alt="logo-image">
+                    </a>
+                    <ul class="social-media-links">
+                        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-youtube"></i></a></li>
+                    </ul>
+
+                </div>
+                <div class="cmn-footer">
+                    <div class="footer-head">
+                        solutions
+                    </div>
+                    <ul class="footer-links">
+                        <li><a href="#">pricing</a></li>
+                        <li><a href="#">meet our team</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">hr guides</a></li>
+                        <li><a href="#">customer terminals</a></li>
+                    </ul>
+                </div>
+                <div class="cmn-footer">
+                    <div class="footer-head">
+                        about us
+                    </div>
+                    <ul class="footer-links">
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">hr training</a></li>
+                        <li><a href="#">careers</a></li>
+                        <li><a href="#">events</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </div>
+                <div class="cmn-footer">
+                    <div class="footer-head">
+                        need to reach us
+                    </div>
+                    <p class="footer-para">
+                        We’re here to answer all your questions. Fill out our contact form and we’ll connect you with
+                        the people who can help.
+                    </p>
+                    <a href="#" class="cmn-btn footer-btn">contact us <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            centeredSlides: false,
+            slidesPerGroupSkip: 1,
+            grabCursor: true,
+            keyboard: {
+                enabled: true,
+            },
+            breakpoints: {
+                769: {
+                    slidesPerView: 2,
+                    slidesPerGroup: 2,
+                },
+            },
+            scrollbar: {
+                el: ".swiper-scrollbar",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
